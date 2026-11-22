@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Mobile gateway",
+    "description": "Serves the session list and messaging over HTTP with QR pairing, for a phone app you host yourself."
+  }
+}

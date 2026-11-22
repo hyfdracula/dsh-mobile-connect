@@ -1,0 +1,12 @@
+# dsh-mobile-connect: a Host-only row that starts an HTTP gateway for a phone client.
+# It shares no state, port or token with the shipped console plugin.
+#
+# Install:  dsh plugin --profile <profile> add dsh-mobile-connect
+#           (or: add github:hyfdracula/dsh-mobile-connect)
+# Then point the row's config at your own port/host if 8901 is taken.
+- insert:
+    - id: mobile-connect
+      name: 'dsh-mobile-connect'
+      config:
+        port: 8901
+        host: '::'
