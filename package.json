@@ -1,7 +1,7 @@
 {
   "name": "dsh-mobile-connect",
-  "version": "0.1.0",
-  "description": "Phone gateway for DeepSeek Harness: exposes the session list and messaging over HTTP with QR pairing, so a self-hosted mobile app can drive DSH from a phone. Runs alongside the built-in console and shares no state with it.",
+  "version": "2.0.0",
+  "description": "Phone gateway for DeepSeek Harness: HTTP session/messaging API, QR + 6-digit pairing, token and file signing, so a self-hosted mobile app can drive DSH from a phone.",
   "type": "module",
   "engines": {
     "node": "^22.19.0 || >=24.0.0",
