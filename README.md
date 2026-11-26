@@ -1,11 +1,11 @@
-# dsh-mobile-connect (v3.0.0)
+# dsh-mobile-connect (v3.1.0)
 
 Phone gateway plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) and multi-agent CLIs (Antigravity `agy acp`, Claude Code, Codex, OpenCode).
 It starts its own HTTP/SSE + Noise_IK E2EE listener and exposes the session list, messaging, models, workspace files and
 the pairing handshake, so a self-hosted phone app can drive desktop agents from another device.
 It runs next to the shipped console plugin, on its own port, with its own token, sharing no state.
 
-手机网关插件（v3.0.0）：在电脑上开一个独立的 HTTP/SSE + 端到端加密端口，统一暴露 DSH、Antigravity、Claude Code、Codex、OpenCode 的会话列表、发消息、模型切换与工作区文件能力，供自建手机 App 使用。与内置控制台并行运行，端口、令牌、状态互不相干。
+手机网关插件（v3.1.0）：在电脑上开一个独立的 HTTP/SSE + 端到端加密端口，统一暴露 DSH、Antigravity、Claude Code、Codex、OpenCode 的会话列表、发消息、模型切换与工作区文件能力，供自建手机 App 使用。与内置控制台并行运行，端口、令牌、状态互不相干。
 
 ## Install
 

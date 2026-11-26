@@ -1,6 +1,6 @@
 {
     "name":  "dsh-mobile-connect",
-    "version":  "3.0.0",
+    "version": "3.1.0",
     "description":  "Phone gateway for DeepSeek Harness \u0026 multi-agent CLIs (DSH / Antigravity / Claude Code / Codex / OpenCode): HTTP/SSE + Noise_IK E2EE API and QR pairing.",
     "type":  "module",
     "engines":  {
